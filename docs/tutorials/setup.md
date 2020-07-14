@@ -219,3 +219,5 @@ Win10: Settings > Display > { Shared Experiences / Project to this PC }
 ### References
 
 - My original source: https://arvrjourney.com/build-your-first-hololens-2-application-with-unity-and-mrtk-2-3-0-5f431d8cca8
+- Miracast setup: https://codeholo.com/2019/11/30/first-impressions-on-hololens-2-and-getting-started-with-development/
+- Development connection: 
