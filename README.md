@@ -13,6 +13,8 @@ There will also be a underlying theme of "Using MRTK for Business"
 and a traditional programmers perspective rather than game development.
 Expect to see API servers and databases rather than game engines!
 
+One more note, the Unity UI directions (to panels and tabs) assumes the default layout.
+
 
 ### Documentation
 

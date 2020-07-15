@@ -4,7 +4,7 @@
 ### MRTK links
 
 - GitHub Site: https://microsoft.github.io/MixedRealityToolkit-Unity/README.html
-- GitHub Repo: https://github.com/microsoft/MixedRealityToolkit-Unity 
+- GitHub Repo: https://github.com/microsoft/MixedRealityToolkit-Unity
 - MRTK Guides: https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html
 - API Reference: https://microsoft.github.io/MixedRealityToolkit-Unity/api/Microsoft.MixedReality.Toolkit.html
 - YouTube Channel: https://www.youtube.com/channel/UCvLkAyMUYkVIXSF-d7D090w (better to just search for now, not a ton there yet)

@@ -14,7 +14,7 @@ you will need to add some packages and configuration... tbd.
 - [Configure your Unity+MRTK project](./configure.md)
 - [Working with objects](./objects.md)
 - [Building your MRTK app](./build.md)
-- [Connecting and deploying to your device](./connecting.md)
+- [Connecting and deploying to your device](./connecting.md) (you can jump ahead to here if you want to build and deploy as you go along)
 - [Use the Scene Manager!](./scenes.md)
 - [Advance Setup and Config](./advanced.md)
 
