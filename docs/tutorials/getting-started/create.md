@@ -1,0 +1,66 @@
+# Creating a new Unity + MRTK project
+
+Start a new Unity project and get all the needed addons installed.
+
+## Starter Projects
+
+- [_mrtk/projects/starter](../../../projects/starter)
+
+## From Scratch
+
+### 1. Create new 3D project from Hub
+
+{image}
+
+### 2. Build Settings
+
+1. Build Settings via `File > Build Settings` menu or `CTRL+Shift+B` shortcut
+1. Select `Universal Windows Platform` and target device `HoloLens` and arch `ARM64`
+1. Click `Switch Platform` and wait a bit
+1. Click `Player Settings`
+    1. go to the XR Settings
+        1. Check supported (ignore depreciation, there is work towards supporting Unity's new render system)
+        1. Select Windows Mixed Reality
+        1. Depth Format 16 bit (for performance)
+        1. Enable Depth Buffer Sharing (check!)
+        1. Stereo Rendering Mode: Single Pass Instanced
+    1. go to `TextMeshPro` and select `Import TMP Essentials`
+
+
+### 3. Add MRTK packages to your project
+
+https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html
+
+Menu: `Assets > Import Package > Custom Package`
+
+After selecting in import, there will be a progress bar and
+another small window will popup to let you choose what to include.
+Select "all" and "import" unless you know exactly what you want to include / exclude.
+After this, there will be one (or more) MRTK settings dialogs. Again,
+select all options unless you know what you are doing.
+For the audio spacializer, if you don't see the MRTK one, select "none" for now,
+it will be an option eventually. Unity may feel unresponsive at times, be patient.
+Not all package imports have all dialogs.
+
+- Microsoft.MixedReality.Toolkit.Unity.Foundation.2.4.0
+- Microsoft.MixedReality.Toolkit.Unity.Extensions.2.4.0
+- Microsoft.MixedReality.Toolkit.Unity.Tools.2.4.0
+- Microsoft.MixedReality.Toolkit.Unity.Examples.2.4.0
+
+You will want all of these in your first projects to make things easier. For example, you will be able to copy scenes and other items from the MRTK Examples.
+
+To ensure everything looks right at this point.
+
+- You should have a new `Mixed Reality Toolkit` menu item.
+- Your Assets folder shold have 2 new folders, `MRTK` and `MixedRealityToolkit.Generated`.
+
+
+### 4. Bonus packages
+
+##### TotalJSON: Make working with JSON easy
+
+TotalJSON is a free package which makes working with JSON a breeze!
+You can find it in the Unity app store. Simply download an import from there.
+
+http://www.leguar.com/unity/totaljson/
+
