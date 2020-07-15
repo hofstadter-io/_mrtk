@@ -2,17 +2,30 @@
 
 Start a new Unity project and get all the needed addons installed.
 
+
+
 ## Starter Projects
+
+You can clone these repos / dirs to start from a builderplate project.
 
 - [_mrtk/projects/starter](../../../projects/starter)
 
+
+
 ## From Scratch
+
+Follow these steps to setup a project from scratch.
+
 
 ### 1. Create new 3D project from Hub
 
-{image}
+- Open Unity Hub and click "new"
+- Select 3D project (the plain one)
+- Enter a name and create
 
 ### 2. Build Settings
+
+These setup the build settings for HoloLens 2 development.
 
 1. Build Settings via `File > Build Settings` menu or `CTRL+Shift+B` shortcut
 1. Select `Universal Windows Platform` and target device `HoloLens` and arch `ARM64`
@@ -63,4 +76,16 @@ TotalJSON is a free package which makes working with JSON a breeze!
 You can find it in the Unity app store. Simply download an import from there.
 
 http://www.leguar.com/unity/totaljson/
+
+
+##### CSharp Redux
+
+... found one, need to try it first ... see references ...
+
+
+---
+
+- [Index](./readme.md)
+- Prev: [Software Tools & Installation](./software.md)
+- Next: [Configure your Unity+MRTK project](./configure.md)
 

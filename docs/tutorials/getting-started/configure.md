@@ -40,26 +40,7 @@ Top level Profile:
 - (right panel) under the "MixedRealityToolkit" script, click "Copy & Customize"
 
 
-
-##### 3. MRTK Scene Manager
-
-The first thing we will do is setup the Scene Manager
-because it will create it's own MRTK objects as well
-and we need to clean up after this and before cloning.
-
-```
-Scene System [enabled]
-    (you will see two new scenes)
-```
-
-The lower half of that script section (right) should now be available.
-You can set "Target Scale" to any of the options, "Room" is a good default to start with.
-
-- Move your MRTK assets to the DefaultManagerScene and remove the one's it added.
-- Delete the default lighting in your SampleScene, add a cube
-- Now, back in the Scene Manager configuration, make sure to click Update Cached Lighting Settings
-
-##### 4. MRTK Configuration Cloning
+##### 3. MRTK Configuration Cloning
 
 
 Now we are going to traverse the Submenu on the bottom right,
@@ -92,21 +73,20 @@ Teleport [disabled] (for VR)
 Spacial Awareness [disabled] (generally for VR, advanced for MRTK currently but not for long)
   (this one is pretty intensive on the CPU in the HL2)
 
+Scene Manager [disabled] (for now)
+
 Diagnostics [enabled] (be sure to disable when shipping to prod)
 ```
-
-### Adding content scenes
-
-This is best done from the Project tab in my experience.
-
-Any time you add a content scene:
-
-- delete the default objects created with the new scene, possibly add labels
-- make sure to add to the scene manager content scene configuration section
-
 
 
 ### More Project Settings to configure
 
 ???
 
+
+
+---
+
+- [Index](./readme.md)
+- Prev: [Creating a new Unity+MRTK project](./create.md)
+- Next: [Working with objects](./objects.md)

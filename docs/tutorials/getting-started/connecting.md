@@ -14,3 +14,8 @@ Win10: Settings > Display > { Shared Experiences / Project to this PC }
 
 
 
+---
+
+- [Index](./readme.md)
+- Prev: [Building your MRTK app](./build.md)
+- Next: [Use the Scene Manager!](./scenes.md)
