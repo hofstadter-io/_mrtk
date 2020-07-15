@@ -1,6 +1,19 @@
 # References
 
-MRTK GitHub: https://microsoft.github.io/MixedRealityToolkit-Unity/README.html
+
+### MRTK links
+
+- GitHub Site: https://microsoft.github.io/MixedRealityToolkit-Unity/README.html
+- GitHub Repo: https://github.com/microsoft/MixedRealityToolkit-Unity 
+- MRTK Guides: https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/GettingStartedWithTheMRTK.html
+- API Reference: https://microsoft.github.io/MixedRealityToolkit-Unity/api/Microsoft.MixedReality.Toolkit.html
+- YouTube Channel: https://www.youtube.com/channel/UCvLkAyMUYkVIXSF-d7D090w (better to just search for now, not a ton there yet)
+- Twitter: https://twitter.com/MxdRealityDev
+- Channel9 MSDN search: https://channel9.msdn.com/Search?term=mixed%20reality&sortBy=recent&lang-en=true
+
+This tweet has many more links: https://twitter.com/julenka/status/1280571894056357890
+
+Also, follow Julia and watch her amazing video she's referring to!
 
 
 ### Getting Started
@@ -12,6 +25,7 @@ MRTK GitHub: https://microsoft.github.io/MixedRealityToolkit-Unity/README.html
 
 ### Unity / MRTK extras
 
+- Easily work with JSON: http://www.leguar.com/unity/totaljson/
 - Better physics engine for XR: https://www.havok.com/products/havok-physics/
 - Redux for C#: https://medium.com/@dbottiau/a-simple-redux-library-for-c-developers-using-reactive-extensions-453413a2b911 and https://github.com/Odonno/ReduxSimple
 
