@@ -9,16 +9,13 @@ MRTK is designed to deploy to all platforms and in most cases
 you will need to add some packages and configuration... tbd.
 
 
-- [Required software](./software.md)
-- [Unity / MRTK project](./project.md)
+- [Software Tools & Installation](./software.md)
+- [Creating a new Unity+MRTK project](./create.md)
+- [Configure your Unity+MRTK project](./configure.md)
 - [Working with objects](./objects.md)
 - [Use the Scene Manager](./scenes.md)
-- [Deploying your MRTK app](./deploy.md)
+- [Building your MRTK app](./build.md)
+- [Connecting to your device](./connecting.md)
+- [Advance Setup and Config](./advanced.md)
 
-This is still a WIP.
-
-- Want to break down long doc
-- Expand on topics
-- Maintain a good walkthrough
-- Complicated because we need to jump back and forth between the same things
 
