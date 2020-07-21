@@ -7,7 +7,7 @@ Learn more about MRTK by going through these tutorials.
 Upcoming:
 
 - [The MRTK Tour](./mrtk-tour/readme.md)
-- [Complex Scenes](./complex-scenes/readme.md)
+- [Multi scenes](./multi-scene/readme.md)
 - Working with APIs and JSON
 - Adding Redux for State Management
 - Multi-user Experiences
