@@ -1,7 +1,5 @@
 # Software Tools & Installation
 
-__Do not use NuGet, compatibility issues will arise and MRTK does not support it!__
-
 ### Software
 
 ##### Basics:

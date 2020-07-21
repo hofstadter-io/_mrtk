@@ -23,6 +23,10 @@ The file explorer should open after Unity is done.
 
 Note, the first builds will be longer in both. After that they seem keep some things cached.
 
+_Note 2, the first build should use `Debug > Start Without Debug` or `Ctrl+F5`
+and be done at the same time you are ready to pair with your HL2 for the first time.
+A pin needs to be entered the first time, but after this you can build, debug, and deploy at will._
+
 We typically use the deploy path as this seems to be a bit quicker both to start up and on device.
 Ideally, we would be remote rendering directly from Unity, but there's that bug...
 
