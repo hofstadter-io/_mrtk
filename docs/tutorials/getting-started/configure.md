@@ -8,10 +8,11 @@ and it gives you the ability to create rich, interwoven scenes and content.
 
 We will be making 2 main MRTK scenes and N content scenes.
 
-- ManagerScene: holds the MRTK stuff and global objects and scripts
+- ManagerScene: holds the MRTK main controller, as well as any global objects and scripts
 - LightingScene: MRTK manages a common lighting scene for all other scenes
-- ContentScenes: All the other things you will make. You can load this in many combinations,
+- ContentScenes: For all of the other things you will make. You can load this in many combinations,
   create objects and move them between scenes or (typically) to the main scene.
+  We'll see this in more detail in the next tutorial "Multi-scene Applications."
 
 
 ##### 1. Add MRTK to the SampleScene
@@ -89,4 +90,4 @@ Diagnostics [enabled] (be sure to disable when shipping to prod)
 
 - [Index](./readme.md)
 - Prev: [Creating a new Unity+MRTK project](./create.md)
-- Next: [Working with objects](./objects.md)
+- Next:- [Working with objects](./objects.md)

@@ -25,9 +25,16 @@ Also, follow Julia and watch her amazing video she's referring to!
 
 ### Unity / MRTK extras
 
-- Easily work with JSON: http://www.leguar.com/unity/totaljson/
-- Better physics engine for XR: https://www.havok.com/products/havok-physics/
-- Redux for C#: https://medium.com/@dbottiau/a-simple-redux-library-for-c-developers-using-reactive-extensions-453413a2b911 and https://github.com/Odonno/ReduxSimple
+Unity + NuGet:
+
+- `Fluxor` (Flux/Redux) https://github.com/mrpmorris/Fluxor
+- `Newtonsoft.Json` (JSON handling) https://www.newtonsoft.ocm/json
+- `TotalJSON` Easily work with JSON: http://www.leguar.com/unity/totaljson/ (This one might be easier work with arbitrary data, but less supported)
+
+External:
+
+- Better physics engine for XR: https://www.havok.com/products/havok-physics/ (this might be merging into microsoft)
+- ^^^ Can download in Unity Store for $20, but again, keep an eye on the experimental engine in MRTK that might be this?)
 
 
 ### Pitfalls and known issues
